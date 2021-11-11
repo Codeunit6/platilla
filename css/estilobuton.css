@@ -1,0 +1,27 @@
+
+.portada{
+    height: 900px;
+    width: 100%;
+}
+
+.nav-back{
+    display: block;
+    background-color: rgb(201, 141, 30);
+    border-radius: 5px;;
+}
+.div-black{
+    padding: 40px; 
+    margin: 50px; 
+    padding-top: 60px; 
+    margin-top: -40px; 
+    margin-bottom: -40px; 
+    border-radius: 5px;
+}
+.mover-buton{
+    position: relative;
+    top: -85px;
+}
+.bajar-img{
+    position: relative;
+    top: 40px;
+}
