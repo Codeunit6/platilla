@@ -103,8 +103,4 @@ try {
     echo "MENSAJE DE ERROR: {$mail->ErrorInfo}";
 }
 
-echo "<script>
-    alert('Se envio tu informacion');
-    window.location='../index.php';
-</script>";
 ?>
