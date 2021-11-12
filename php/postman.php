@@ -44,7 +44,7 @@ try {
     $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
     $mail->Username = 'fernando.brayan.m.g@gmail.com';
     //Assuming SMTP_PASSWORD is your environment variable which holds password
-    $mail->Password = 'holafernando12';                             //SMTP password
+    $mail->Password = 'holafernando1234';                             //SMTP password
     $mail->SMTPSecure = 'tls';            //Enable implicit TLS encryption
     $mail->Port       = 587;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
 
