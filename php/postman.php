@@ -42,9 +42,9 @@ try {
     $mail->isSMTP();                                            //Send using SMTP
     $mail->Host       = 'smtp.gmail.com';                     //Set the SMTP server to send through
     $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
-    $mail->Username = 'fernando.brayan.m.g@gmail.com';
+    $mail->Username = 'example@example.com';
     //Assuming SMTP_PASSWORD is your environment variable which holds password
-    $mail->Password = 'holafernando12345';                             //SMTP password
+    $mail->Password = 'example123';                             //SMTP password
     $mail->SMTPSecure = 'tls';            //Enable implicit TLS encryption
     $mail->Port       = 587;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
 
